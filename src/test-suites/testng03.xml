@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+    <test name="Run with Method">
+        <classes>
+            <class name="anhtester.com.TestRunXML.RunTestSample"></class>
+            <class name="anhtester.com.TestRunXML.RunTestNG03">
+                <methods>
+                    <include name="testAnhTesterBlog" />
+                    <include name="testGoogleSearch" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
