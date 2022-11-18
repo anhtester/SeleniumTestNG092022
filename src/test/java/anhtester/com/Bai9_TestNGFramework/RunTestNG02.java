@@ -38,6 +38,24 @@ public class RunTestNG02 {
         Thread.sleep(2000);
     }
 
+    @Test
+    public void testGoogleSearch2() throws InterruptedException {
+        driver.get("https://www.google.com/");
+        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("anhtester", Keys.ENTER);
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//h3[normalize-space()='Anh Tester - Automation Testing']")).click();
+        Thread.sleep(2000);
+    }
+
+    @Test
+    public void testGoogleSearch3() throws InterruptedException {
+        driver.get("https://www.google.com/");
+        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("anhtester", Keys.ENTER);
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//h3[normalize-space()='Anh Tester - Automation Testing']")).click();
+        Thread.sleep(2000);
+    }
+
     @AfterMethod
     public void closeDriver() {
         driver.quit();

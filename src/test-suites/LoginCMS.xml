@@ -3,8 +3,7 @@
 <suite name="Suite" verbose="1">
     <test name="Run with Class">
         <classes>
-            <class name="anhtester.com.Bai9_TestNGFramework.RunTestNG01" />
-            <class name="anhtester.com.Bai9_TestNGFramework.RunTestNG02" />
+            <class name="anhtester.com.Bai10_AnnotationTestNG.LoginCMS" />
         </classes>
     </test>
 </suite>
