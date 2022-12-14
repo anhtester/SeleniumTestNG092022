@@ -1,13 +1,13 @@
 package anhtester.com.Bai12_ActionsRobot;
 
-import anhtester.com.common.BaseTest;
+import anhtester.com.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class TestActionsClass extends BaseTest {
+public class TestActionsClassOLD extends BaseTest_OLD {
 
     @Test
     public void testSendKeys() throws InterruptedException {

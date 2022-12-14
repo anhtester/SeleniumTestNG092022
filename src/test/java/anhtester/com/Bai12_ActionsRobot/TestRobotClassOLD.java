@@ -1,6 +1,6 @@
 package anhtester.com.Bai12_ActionsRobot;
 
-import anhtester.com.common.BaseTest;
+import anhtester.com.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -13,7 +13,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class TestRobotClass extends BaseTest {
+public class TestRobotClassOLD extends BaseTest_OLD {
 
     @Test
     public void inputText() throws InterruptedException, AWTException {

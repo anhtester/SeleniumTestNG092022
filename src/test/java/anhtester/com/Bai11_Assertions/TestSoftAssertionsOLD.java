@@ -1,15 +1,14 @@
 package anhtester.com.Bai11_Assertions;
 
-import anhtester.com.common.BaseTest;
+import anhtester.com.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestSoftAssertions extends BaseTest {
+public class TestSoftAssertionsOLD extends BaseTest_OLD {
     @Test
-    public void testSoftAssert(){
+    public void testSoftAssert() {
         driver.get("https://rise.fairsketch.com/signin");
 
         String headerSignInPage = driver.findElement(By.xpath("//div[@class='card-header text-center']//h2")).getText();

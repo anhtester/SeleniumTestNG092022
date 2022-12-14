@@ -1,10 +1,10 @@
 package anhtester.com.Bai13_Alert_Popup_iFrame;
 
-import anhtester.com.common.BaseTest;
+import anhtester.com.common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class HandleIFrame extends BaseTest {
+public class HandleIFrame extends BaseTest_OLD {
     @Test
     public void iFrame01() throws InterruptedException {
 

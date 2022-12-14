@@ -1,10 +1,10 @@
 package anhtester.com.Bai11_Assertions;
 
-import anhtester.com.common.BaseTest;
+import anhtester.com.common.BaseTest_OLD;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestHardAssertions extends BaseTest {
+public class TestHardAssertionsOLD extends BaseTest_OLD {
 
     @Test(priority = 1)
     public void TestAssertEquals() {

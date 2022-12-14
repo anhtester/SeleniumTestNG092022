@@ -1,13 +1,13 @@
 package anhtester.com.Bai13_Alert_Popup_iFrame;
 
-import anhtester.com.common.BaseTest;
+import anhtester.com.common.BaseTest_OLD;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HandleAlert extends BaseTest {
+public class HandleAlert extends BaseTest_OLD {
     @Test
     public void TestAlert01() throws InterruptedException {
         driver.get("https://demo.guru99.com/test/delete_customer.php");
