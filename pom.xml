@@ -21,7 +21,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -30,14 +29,7 @@
             <artifactId>selenium-java</artifactId>
             <version>4.7.2</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-        <!--        <dependency>-->
-        <!--            <groupId>io.github.bonigarcia</groupId>-->
-        <!--            <artifactId>webdrivermanager</artifactId>-->
-        <!--            <version>5.3.1</version>-->
-        <!--        </dependency>-->
-
+        
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
         <dependency>
             <groupId>org.slf4j</groupId>
