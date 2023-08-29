@@ -14,6 +14,7 @@ public class BaseTest_OLD {
     @BeforeMethod
     public void createBrowser() {
         System.out.println("Start Chrome browser from BaseTest_OLD...");
+        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         //Chờ đợi ngầm định cho mỗi câu lệnh tìm kiếm driver.findElement với thời gian 10 giây

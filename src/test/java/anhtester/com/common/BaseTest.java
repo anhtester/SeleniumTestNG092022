@@ -15,6 +15,7 @@ public class BaseTest {
     @BeforeMethod
     public void createBrowser() {
         System.out.println("Start Chrome browser from BaseTest...");
+        System.setProperty("webdriver.http.factory", "jdk-http-client");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 
