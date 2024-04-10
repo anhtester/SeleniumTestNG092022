@@ -5,6 +5,8 @@ Source code Selenium Maven từ bài 5 đến bài 8: https://github.com/anhtest
 
 Source code hướng dẫn bài tập: https://github.com/anhtester/HuongDanBaiTap092022
 
+🔆 Lưu ý: nhớ cập nhật thư viện trong pom.xml phiên bản mới nhất
+
 🔅 Khoá học Selenium WebDriver with Java Basic to Advanced | Anh Tester
 
 https://anhtester.com/course/selenium-webdriver-with-java-basic-to-advanced-c4.html
